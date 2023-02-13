@@ -24,7 +24,7 @@ body{
 }
 
 .container{
-    padding: 10px 10px;
+    padding: 1rem;
 }
 
 nav{
@@ -35,30 +35,30 @@ nav{
 }
 
 .logo{
-    width: 140px;
+    width: 14rem;
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 1rem 2rem;
 }
 
 nav ul li a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.8rem;
     position: relative;
 }
 
 nav ul li a::after{
 content: ' ';
 width: 0;
-height: 3px;
+height: 0.3rem;
 background:#DD9D02;
 position: absolute;
 left: 0;
-bottom: -6px;
+bottom: -0.6rem;
 transition: 0.5s;
 }
 
@@ -88,8 +88,8 @@ nav ul li a:hover::after{
   }
 
 .header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 6rem;
+    margin-top: 2rem;
 }
 
 .header-text h1 span{
@@ -99,10 +99,10 @@ nav ul li a:hover::after{
 /*----------about---------------*/
 
 #about{
-    padding: 80px 0;
+    padding: 5rem 0;
     margin: 0px;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .row{
@@ -116,33 +116,33 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 100%;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
 }
 .about-col-2{
     flex-basis: 60%;
 }
 
 .sub-title{
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 600;
     color: #ffffff;
 }
 
 .sub-par{
     font-weight: 90;
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #ffffff;
 }
 
 .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 1.25rem 0 2.5rem;
 }
 
 .tab-links{
     color: #ffffff;
-    margin-right: 50px;
-    font-size: 20px;
+    margin-right: 3.125rem;
+    font-size: 1.25rem;
     font-weight: 600;
     cursor: pointer;
     position: relative;
@@ -150,11 +150,11 @@ nav ul li a:hover::after{
 .tab-links::after{
     content: ' ';
     width: 0;
-    height: 3px;
+    height: 0.1875rem;
     background: #DD9D02;
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom: -0.5rem;
     transition: 0.5s;
 }
 
@@ -164,12 +164,12 @@ nav ul li a:hover::after{
 
 .tab-contents ul li{
 list-style: none;
-margin: 10px 0;
+margin: 0.625rem 0;
 }
 
 .tab-contents ul li span{
     color: #666966;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 600;
 }
 
@@ -184,86 +184,86 @@ margin: 10px 0;
 /*--------------services----------------*/
 
 #services{
-    padding: 30px 0;
-    margin: 30px;
+    padding: 2vh 0;
+    margin: 2vw;
 }
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+    grid-gap: 2.5vw;
+    margin-top: 3.5vh;
 }
 
 .services-list div{
     background: #666966;
-    padding: 40px;
-    font-size: 13px;
+    padding: 2.5vh;
+    font-size: 1.3vw;
     font-weight: 300;
-    border-radius: 8px;
+    border-radius: 0.8vw;
     transition: background 0.5s, transform 0.5s;
 }
 
 .services-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 5vw;
+    margin-bottom: 3vh;
 }
 
 .services-list div h3{
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 1.5vh;
 }
 
 .services-list div p{
-    font-size: 15px;
+    font-size: 1.5vw;
 }
 
 .services-list div a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 1.4vw;
+    margin-top: 2vh;
     display: inline-block;
     
 }
 
 .services-list div:hover{
     background: #878460;
-    transform: translateY(-10px) ;
+    transform: translateY(-1vh) ;
 }
 
 /*-------------portfolio----------------*/
 
 #portfolio{
-    padding: 50px 0;
-    margin: 30px;
-}
-
-.work-list{
+    padding: 1.5rem 0;
+    margin: 1.875rem;
+    }
+    
+    .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-
-.work{
-    border-radius: 10px;
+    grid-gap: 2.5rem;
+    margin-top: 1.5625rem;
+    }
+    
+    .work{
+    border-radius: 0.625rem;
     position: relative;
     overflow: hidden;
-}
-
-.work img{
+    }
+    
+    .work img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     display: block;
     transition: transform 0.5s;
-}
-
-.layer{
+    }
+    
+    .layer{
     width: 100%;
     height: 0%;
     background: linear-gradient(rgba(0, 0, 0, 0.033), #DD9D02);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -272,98 +272,107 @@ margin: 10px 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 1.5rem;
     text-align: center;
-    font-size: 15px;
+    font-size: 0.9375rem;
     transition: height 0.5s;
-}
-
-.layer h3{
+    }
+    
+    .layer h3{
     font-weight: 500;
-    margin-bottom: 20px;
-}
-
-.layer a{
-    margin-top: 20px;
+    margin-bottom: 1.25rem;
+    }
+    
+    .layer a{
+    margin-top: 1.25rem;
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
+    font-size: 1.125rem;
+    line-height: 3.75rem;
     background: #878460;
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
     text-align: center;
-}
-
-.work:hover img{
+    }
+    
+    .work:hover img{
     transform: scale(1.1);
-}
-
-.work:hover .layer{
+    }
+    
+    .work:hover .layer{
     height: 100%;
-}
-
-.btn{
+    }
+    
+    .btn{
     display: block;
-    margin: 50px auto;
+    margin: 1.5625rem auto;
     width: fit-content;
-    border: 3px solid #ffffff;
-    padding: 14px 50px;
-    border-radius: 4px;
+    border: 0.1875rem solid #ffffff;
+    padding: 0.5625rem 1.5625rem;
+    border-radius: 0.25rem;
     text-decoration: none;
     color: #ffffff;
     transition: background 0.5s;
-}
-
-.btn:hover{
+    }
+    
+    .btn:hover{
     background: #878460;
-}
+    }
 
 /*-------------contact----------------*/
 #contact .container{
     display: flex;
     justify-content: center;
-}
-.contact-left{
+    }
+    
+    .contact-left{
     flex-basis: 35%;
-}
-.contact-right{
-    flex-basis:60%;
-}
-.contact-left p{
+    }
+    
+    .contact-right{
+    flex-basis: 60%;
+    }
+    
+    .contact-left p{
     margin-top: 30px;
-}
-.contact-left p i{
+    }
+    
+    .contact-left p i{
     color: #ffffff;
     margin-right: 15px;
     font-size: 25px;
-}
-.social-icons{
+    }
+    
+    .social-icons{
     margin-top: 30px;
-}
-.social-icons a{
+    }
+    
+    .social-icons a{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
     color: #666966;
     display: inline-block;
     transition: transform 0.5s;
-}
-.social-icons a:hover{
-    color:#ffffff;
-    transform:translateY(-5px);
-}
-
-.btn.btn2{
+    }
+    
+    .social-icons a:hover{
+    color: #ffffff;
+    transform: translateY(-5px);
+    }
+    
+    .btn.btn2{
     font-size: 20px;
     display: inline-block;
     background: #878460;
-}
-.contact-right form{
+    }
+    
+    .contact-right form{
     width: 100%;
-}
-form input, form textarea{
+    }
+    
+    form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
@@ -373,24 +382,23 @@ form input, form textarea{
     color: #666966;
     font-size: 18px;
     border-radius: 6px;
-}
-
-form .btn.btn2{
+    }
+    
+    form .btn.btn2{
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-}
-
-.copyright{
+    }
+    
+    .copyright{
     width: 100%;
     text-align: center;
     padding: 25px 0;
     background: #666966;
     font-weight: 300;
     margin-top: 20px;
-}
-
+    }
 /*-------------css for small screens----------------*/
 nav .fa-solid{
     display: none;
