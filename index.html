@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6775d64ff8.js" crossorigin="anonymous"></script>
+    <title>Motion by Zoe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/header3.png" class="logo">
+                    <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                        <div class="video-background">
+                            <video autoplay muted>
+                              <source src="media/ordeñador.mp4" type="video/mp4">
+                            </video>
+                          </div>
+            </div>
+    </div>
+    
+    <!-----------------------------about---------------->
+    <div id="about">
+        <div class="container">
+                <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/perfil.jpg">
+                        </div>
+                        <div class="about-col-2">
+                            <h2 class="sub-title">About me</h2>
+                            <p class="sub-par">I'm a motion graphic artist currently based in Ireland Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ad ut magnam fugiat consequatur obcaecati ullam! Atque vero eos esse debitis molestias eius minus. Assumenda ex eveniet accusantium obcaecati consequatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis doloribus quo sequi dolor quidem, maxime eveniet, sint reprehenderit saepe nisi aperiam quibusdam? Ratione tenetur veniam odio necessitatibus tempora fugit fuga? </p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Motion Graphics</span><br>Project design with animation</li>
+                                    <li><span>Graphic Design</span><br>Create visuals for all kinds of projects</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2015 - Current</span><br>Working on an animation project</li>
+                                    <li><span>2019 - 2022</span><br>animation project for explanatory videos of a company</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2016</span><br>Graphic Designer Certification</li>
+                                    <li><span>2020</span><br>certification in Motion Graphics</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+    <!---------------------------services------------------------->
+
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-play"></i>
+                <h3>Motion Graphics</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid necessitatibus, quae aliquam explicabo quaerat molestias culpa, aperiam possimus id distinctio vero, quibusdam sunt eaque inventore quos illo repudiandae iure! Adipisci?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid necessitatibus, quae aliquam explicabo quaerat molestias culpa, aperiam possimus id distinctio vero, quibusdam sunt eaque inventore quos illo repudiandae iure! Adipisci?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------portfolio----------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+                <div class="work">
+                    <img src="images/w1.png">
+                    <div class="layer">
+                        <h3>"Dia mundial de la tapa" Design.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quo commodi laborum.</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/w2.png">
+                    <div class="layer">
+                        <h3>"World Graphics Day" Design.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quo commodi laborum.</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></i></a>
+                    </div>
+                 </div>
+                 <div class="work">
+                        <img src="images/w3.png">
+                        <div class="layer">
+                            <h3>Motion Graphics project.</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quo commodi laborum.</p>
+                            <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></i></a>
+                        </div>
+                 </div>
+            </div>
+            <a href="#" class="btn">See more</a>  
+        </div>
+    </div>
+
+<!-------------contact----------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h3 class="sub-title">Contact Me</h3>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> 24523464</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>- © Motion by Zoe -</p>
+    </div>
+    
+</div>
+
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+        for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+    function openmenu() {
+      document.getElementById("sidemenu").style.display = "block";
+    }
+    
+    function closemenu() {
+      document.getElementById("sidemenu").style.display = "none";
+    }
+  </script>
+
+</body>
+</html>
